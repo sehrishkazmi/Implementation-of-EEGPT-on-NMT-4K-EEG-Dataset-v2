@@ -1,0 +1,40 @@
+{
+  "metadata_source": "data/metadata.csv",
+  "split_file": "data/recording_splits.csv",
+  "total_recordings": 4500,
+  "patient_overlap_internal": 0,
+  "patient_overlap_official": 0,
+  "evaluation_used_for_splitting": false,
+  "counts": [
+    {
+      "experiment_split": "evaluation",
+      "label": 0,
+      "recordings": 540
+    },
+    {
+      "experiment_split": "evaluation",
+      "label": 1,
+      "recordings": 460
+    },
+    {
+      "experiment_split": "internal_train",
+      "label": 0,
+      "recordings": 2228
+    },
+    {
+      "experiment_split": "internal_train",
+      "label": 1,
+      "recordings": 571
+    },
+    {
+      "experiment_split": "validation",
+      "label": 0,
+      "recordings": 568
+    },
+    {
+      "experiment_split": "validation",
+      "label": 1,
+      "recordings": 133
+    }
+  ]
+}

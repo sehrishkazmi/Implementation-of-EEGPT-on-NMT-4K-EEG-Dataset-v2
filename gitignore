@@ -1,0 +1,145 @@
+# EEGPT-NMT-v2
+# Keep source code, scripts, configs/default.yaml, anonymized metadata,
+# recording_splits.csv, protocol reports, documentation, and tests in Git.
+
+# -----------------------------------------------------------------------------
+# Python bytecode, caches, and packaging
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+build/
+dist/
+downloads/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+# -----------------------------------------------------------------------------
+# Virtual environments and local package managers
+# -----------------------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-meta/
+__pypackages__/
+
+# -----------------------------------------------------------------------------
+# Secrets and machine-specific configuration
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+configs/local.yaml
+configs/*.local.yaml
+configs/*_local.yaml
+
+# -----------------------------------------------------------------------------
+# Raw EEG files, datasets, and generated tensors
+# -----------------------------------------------------------------------------
+*.edf
+*.bdf
+*.gdf
+*.set
+*.fdt
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.mat
+datasets/
+dataset/
+data/raw/
+data/edf/
+data/processed_*/
+data/processed_recordings.csv
+data/preprocessing_failures.csv
+data/edf_diagnostics.csv
+data/*failures*.csv
+data/*diagnostics*.csv
+data/private/
+data/*_private.csv
+
+# -----------------------------------------------------------------------------
+# Model checkpoints and serialized training artifacts
+# -----------------------------------------------------------------------------
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+checkpoints/*
+!checkpoints/README.md
+
+# -----------------------------------------------------------------------------
+# Training, evaluation, experiment-tracker, and profiler outputs
+# -----------------------------------------------------------------------------
+outputs/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+tb_logs/
+profiler/
+*.tfevents.*
+*.prof
+*.trace.json
+
+# -----------------------------------------------------------------------------
+# Logs, crash dumps, temporary files, and generated archives
+# -----------------------------------------------------------------------------
+*.log
+*.log.*
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+core
+core.*
+*.dmp
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# -----------------------------------------------------------------------------
+# Jupyter
+# -----------------------------------------------------------------------------
+.ipynb_checkpoints/
+
+# -----------------------------------------------------------------------------
+# Editors and IDEs
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+.vs/
+*.code-workspace
+
+# -----------------------------------------------------------------------------
+# Operating-system files
+# -----------------------------------------------------------------------------
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+System Volume Information/

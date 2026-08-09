@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/
+data/processed_4s_256hz/
+data/processed_recordings.csv
+data/preprocessing_failures.csv
+outputs/
+checkpoints/*.ckpt
+checkpoints/
+
+
+

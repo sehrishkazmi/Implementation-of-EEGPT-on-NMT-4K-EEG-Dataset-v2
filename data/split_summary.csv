@@ -1,0 +1,7 @@
+experiment_split,label,recordings
+evaluation,0,540
+evaluation,1,460
+internal_train,0,2228
+internal_train,1,571
+validation,0,568
+validation,1,133
