@@ -2,7 +2,7 @@
 paths:
   # Change this one path if your extracted NMT-4K folder is elsewhere.
   dataset_root: "F:/Dataset/NMT-4K-EEG"
-  metadata_csv: "data/metadata.csv"
+  metadata_csv: "data/metadata_complete_4500.csv"
   recording_splits_csv: "data/recording_splits.csv"
   processed_tensor_dir: "F:/processed_4s_256hz"
   processed_manifest_csv: "data/processed_recordings.csv"
