@@ -1,0 +1,22 @@
+recording_id,official_split,experiment_split,label,stage,edf_path_resolved,file_size_bytes,error_type,error,traceback
+mh_2024_0004036,evaluation,evaluation,0,resolve_edf_path,,,FileNotFoundError,Could not locate mh_2024_0004036.edf beneath F:\Dataset\NMT-4K-EEG,"Traceback (most recent call last):
+  File ""E:\EEGPT-NMT-v2\eegpt_nmt\preprocess.py"", line 295, in run_preprocessing
+    edf_path = resolve_edf_path(row, dataset_root)
+  File ""E:\EEGPT-NMT-v2\eegpt_nmt\preprocess.py"", line 73, in resolve_edf_path
+    raise FileNotFoundError(f""Could not locate {filename} beneath {dataset_root}"")
+FileNotFoundError: Could not locate mh_2024_0004036.edf beneath F:\Dataset\NMT-4K-EEG
+"
+mh_2024_0004037,evaluation,evaluation,0,resolve_edf_path,,,FileNotFoundError,Could not locate mh_2024_0004037.edf beneath F:\Dataset\NMT-4K-EEG,"Traceback (most recent call last):
+  File ""E:\EEGPT-NMT-v2\eegpt_nmt\preprocess.py"", line 295, in run_preprocessing
+    edf_path = resolve_edf_path(row, dataset_root)
+  File ""E:\EEGPT-NMT-v2\eegpt_nmt\preprocess.py"", line 73, in resolve_edf_path
+    raise FileNotFoundError(f""Could not locate {filename} beneath {dataset_root}"")
+FileNotFoundError: Could not locate mh_2024_0004037.edf beneath F:\Dataset\NMT-4K-EEG
+"
+mh_2024_0004038,evaluation,evaluation,0,resolve_edf_path,,,FileNotFoundError,Could not locate mh_2024_0004038.edf beneath F:\Dataset\NMT-4K-EEG,"Traceback (most recent call last):
+  File ""E:\EEGPT-NMT-v2\eegpt_nmt\preprocess.py"", line 295, in run_preprocessing
+    edf_path = resolve_edf_path(row, dataset_root)
+  File ""E:\EEGPT-NMT-v2\eegpt_nmt\preprocess.py"", line 73, in resolve_edf_path
+    raise FileNotFoundError(f""Could not locate {filename} beneath {dataset_root}"")
+FileNotFoundError: Could not locate mh_2024_0004038.edf beneath F:\Dataset\NMT-4K-EEG
+"
